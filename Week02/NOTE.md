@@ -8,3 +8,9 @@ findMax or findMin : O(1) insert: O(log n) deleteMax or deleteMin O(log n)
 
 二叉堆父节点找子节点  左：i*2 + 1 右： i*2+2
 二叉堆子节点找父节点  floor((i-1)/2)
+
+HashMap总结：
+①数组+链表形式，键是唯一的(哈希函数)
+②哈希碰撞(哈希冲突)问题，如何有效的解决哈希碰撞(哈希冲突)问题
+③当容量超过阈值时，会重新扩容到当前的两倍
+④时间复杂度 ： 最好情况O(1) 最坏情况O(n)
